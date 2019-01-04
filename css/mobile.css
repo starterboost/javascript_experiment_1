@@ -1,0 +1,123 @@
+body,html{
+	margin: 0px;
+	padding: 0px;
+	background-color: white;
+	background: #d2d1d7;
+	background: linear-gradient(135deg,#d2d1d7 0,#ecedef 100%);
+	font-family: 'Roboto', sans-serif;
+	height: 100%;
+}
+
+.ar-item{
+	width: 200px;
+	height: 200px;
+	position: absolute;
+}
+
+.ar-item >.content{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	top: -50%;
+	left: -50%;
+}
+
+.ar-item >.content >canvas{
+	width: 100%;
+	height: 100%;
+}
+
+.ar-item >.content >.title{
+	position: absolute;
+	bottom: -30px;
+	width: 100%;
+	background: none;
+	font-size: 18px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.station-item{
+	width: 100px;
+	height: 180px;
+	position: absolute;
+}
+
+.station-item >.content{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	top: -50%;
+	left: -50%;
+	text-align: center;
+}
+
+.station-item >.content >canvas{
+	width: 100%;
+	height: 100%;
+}
+
+.station-item >.content >.title{
+	position: absolute;
+	bottom: 0px;
+	background: none;
+	font-size: 12px;
+	padding: 3px;
+	text-align: center;
+	background-color: white;
+	width: 100%;
+	text-transform: uppercase;
+}
+
+
+.wiki-item{
+	width: 50px;
+	height: 120px;
+	position: absolute;
+}
+
+.wiki-item.empty .title{
+	display: none;
+}
+
+.wiki-item >.content{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	top: -50%;
+	left: -50%;
+	text-align: center;
+	background-image: url('../assets/wiki.png');
+	background-position: 50% 50%;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.wiki-item >.content >canvas{
+	width: 100%;
+	height: 100%;
+}
+
+.wiki-item >.content >.title{
+	position: absolute;
+	bottom: 0px;
+	left: -25%;
+	background: none;
+	font-size: 10px;
+	padding: 3px;
+	text-align: center;
+	background-color: white;
+	width: 150%;
+	text-transform: uppercase;
+}
+
+.track{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}	

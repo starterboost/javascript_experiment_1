@@ -1,0 +1,42 @@
+<html>
+	<head>
+			<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+		<link href="css/mobile.css" rel="stylesheet" />
+		<script src="js/jquery.min.js"></script>
+		<script src="js/lodash.min.js"></script>
+		<script src="js/handlebars.min.js"></script>
+		<script src="js/curve.js"></script>
+		<script src="js/mobile.js"></script>
+		<!--TEMPLATES-->
+		<script id="template-track" type="text/x-handlebars-template">
+			<canvas class="track" />
+		</script>
+		<script id="template-ar-item" type="text/x-handlebars-template">
+			<div class="ar-item">
+				<div class="content">
+					<canvas />
+					<p class="title">{{title}}</p>
+				</div>
+			</div>
+		</script>
+		<script id="template-station-item" type="text/x-handlebars-template">
+			<div class="station-item">
+				<div class="content">
+					<canvas />
+					<p class="title">{{title}}</p>
+				</div>
+			</div>
+		</script>
+		<script id="template-wiki-item" type="text/x-handlebars-template">
+			<div class="wiki-item {{className}}">
+				<div class="content">
+					<canvas />
+					<p class="title">{{title}}</p>
+				</div>
+			</div>
+		</script>
+	</head>
+	<body>
+
+	</body>
+</html>
